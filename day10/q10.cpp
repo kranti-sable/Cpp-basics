@@ -1,7 +1,6 @@
 // max subarray sum kadan's approch
 #include <iostream>
 using namespace std;
-
 void maxsubarraysum(int arr[],int n){
     int maxsum=INT_MIN;
     int currsum=0;
