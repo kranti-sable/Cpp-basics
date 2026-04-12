@@ -3,7 +3,6 @@ using namespace std;
 void spiralmatrix(int matrix[][4],int n,int m){
     int srow =0,scol=0;
     int erow =n-1,ecol=m-1;
-
     while(srow<=erow && scol<=ecol){
         for(int j=scol;j<=ecol;j++){
             cout<<matrix[srow][j]<<" ";
