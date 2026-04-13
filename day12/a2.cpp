@@ -1,3 +1,4 @@
+//diagonal sum 
 #include <iostream>
 using namespace std;
 void diagonalsum(int arr[][3],int n){
