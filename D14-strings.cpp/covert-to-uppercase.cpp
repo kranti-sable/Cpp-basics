@@ -1,3 +1,4 @@
+//converting lowercase to uppercase
 #include<iostream>
 #include<cstring>
 using namespace std;
@@ -5,14 +6,14 @@ void touppercase(char word[],int n){
     for(int i=0;i<n;i++){
         char ch = word[i];
         if(ch>='A' && ch<='Z'){//uppercase
-            word[i]=ch-'A'+'a';
-        }else{//lowercase
             continue;
+        }else{//lowercase
+            word[i]=ch-'a'+'A';
         }
     }
 }
 int main(){
-    char word[]="ABCDE";
+    char word[]="abced";
     
     touppercase(word,strlen(word));
     cout<<word<<endl;
