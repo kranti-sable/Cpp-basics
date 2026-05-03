@@ -14,7 +14,6 @@ void touppercase(char word[],int n){
 }
 int main(){
     char word[]="abced";
-    
     touppercase(word,strlen(word));
     cout<<word<<endl;
     return 0;
