@@ -1,4 +1,6 @@
 /* In this question all types of topics are coverd like class & object,access modifiers,getters and setters,encapsulation,constructor accept copy constructor,*/
+/*create a user class with properties : id(private),username(public)& password (private).its id should be initialized in a parameterised constructor .if should have a getter & setter for password.
+*/
 #include<iostream>
 #include<string>
 using namespace std;
