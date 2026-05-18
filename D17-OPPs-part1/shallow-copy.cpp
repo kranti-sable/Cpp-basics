@@ -13,12 +13,12 @@ class car{
         mileage = new int ;
         *mileage=12;
     }
-    car(car &original){
-        cout<<"coping original to new..\n";
-        name=original.name;
-        color=original.color;
-        mileage=original.mileage;
-    }
+   // car(car &original){
+     //   cout<<"coping original to new..\n";
+       // name=original.name;
+        //color=original.color;
+        //mileage=original.mileage;
+    //}
 };
 int main(){
     car c1("maruti800","blue");
