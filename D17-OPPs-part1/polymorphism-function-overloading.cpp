@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
+
 class print{
     public:
     void show (int x){
@@ -11,6 +12,7 @@ class print{
     }
 };
 int main(){
+
     print obj1;
     obj1.show(20);
     obj1.show("kranti");
