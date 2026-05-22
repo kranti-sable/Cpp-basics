@@ -12,6 +12,7 @@ class child:public parent{
         cout<<"child class show..\n";
     }
 };
+
 int main(){
     child c1;
     c1.show();
