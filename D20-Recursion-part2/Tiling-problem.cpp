@@ -1,6 +1,7 @@
 //Q--count total ways to tile a floor with tiles
 #include<iostream>
 using namespace std;
+
 int tilingProblem(int n){
     if(n==0||n==1){
         return 1;
